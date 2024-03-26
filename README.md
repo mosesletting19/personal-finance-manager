@@ -1,35 +1,25 @@
-# Personal Finance Manager
+# Personal Finance Manager CLI
 
-## Introduction
-Welcome to the Personal Finance Manager, a command-line tool to help you manage your finances efficiently. This application allows users to register, log in, add transactions, manage categories, and more, all from the convenience of the terminal.
+## Overview
+The Personal Finance Manager CLI is a command-line tool that helps users manage their personal finances by recording income, expenses, savings, and providing summary information.
 
 ## Features
-- **User Registration:** Create a new account to start managing your finances.
-- **Login System:** Securely log in to access your financial data.
-- **Transaction Management:** Add, update, and delete financial transactions easily.
-- **Category Management:** Organize transactions by predefined categories (e.g., food, rent, salary).
-- **Transaction History:** View a detailed history of your transactions.
-- **User Settings:** Customize your profile and preferences.
-- **Modern CLI Interface:** User-friendly command-line interface for intuitive interaction.
-- **Data Persistence:** Utilizes SQLite database for data storage and retrieval.
+- Add income entries with details such as amount, source, and date.
+- Add expense entries including amount, category, description, and date.
+- Add savings entries with an amount and date.
+- View total income, total expenses, and total savings.
+- Update income amounts and delete expense entries.
+- Retrieve income and expense records based on source and category.
+
+## Prerequisites
+- Python 3.x installed on your system
+- SQLAlchemy library (`pip install sqlalchemy`)
 
 ## Installation
-1. **Clone the Repository:**
+1. Clone or download the project from the repository.
+2. Navigate to the project directory.
+
+## Usage
+1. Run the `cli.py` file to start the CLI:
    ```bash
-   git clone https://github.com/mosesletting19/personal-finance-manager.git
-## Dependencies
-Python 3.x
-SQLAlchemy
-colorama (optional for colored output)
-##Contributing
-Contributions are welcome! If you have ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request. Please follow the code style and guidelines in the project.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-
-
-
-
+   python cli.py
